@@ -1,0 +1,20 @@
+#第一种方式：在application.yml中指定erureka(注册中心)的地址
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+# 第二种方式，通过git获取erureka(注册中心)的地址,这时需要在git的repository里添加application.yml，如下（应该把#号去掉）：
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+
+#words: 打1,打2,打3,打4,打5
+
+server:
+  port: 8804
+
+spring:
+  application:
+    name: zf-erueka-client4
